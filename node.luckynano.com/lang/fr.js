@@ -1,4 +1,4 @@
-/*************************************************************************
+x/*************************************************************************
 *                          GLOBAL VARIABLES MODULE                       *
 **************************************************************************/
 
@@ -111,7 +111,7 @@ exports.withdraw_confirm = "Votre transaction sera traitée dans les plus brefs 
 exports.withdrawal_wait = (time) => `Veuillez patienter <gold>'+time+'h</gold> ou miser en <img class="nano_logo" src="images/assets/nano.png"/> pour débloquer l'envoi de fonds. <a href="old/faq.php#anti_spam_withdrawal" target="_blank"><i class="mdi mdi-help-circle"></i></a>`;
 exports.withdrawal_2FA_mail_subject = (amount) => 'Transaction de '+amount/1000000+' NANO en attente de confirmation';
 exports.withdrawal_2FA_mail = (name,amount,address,internal_id,url_hash) => `<p>Bonjour <b>`+name+`,</b></p>
-<p>Veuillez confirmer l'envoi de <b>`+amount/1000000+` NANO</b> à l'adresse <b>`+address+`</b> en cliquant sur le lient suivant :</p> 
+<p>Veuillez confirmer l'envoi de <b>`+amount/1000000+` NANO</b> à l'adresse <b>`+address+`</b> en cliquant sur le lien suivant :</p> 
 <p><a href='https://luckynano.com/?r=send_money&i=`+internal_id+`&v=`+url_hash+`'> https://luckynano.com/?r=send_money&i=`+internal_id+`&v=`+url_hash+`</a></p>
 <p>Si vous n'êtes pas à l'origine de cette requête, nous vons recommandons de <b>changer votre mot de passe</b> le plus rapidement possible.</p>
 <p>La transaction ne sera pas exécutée sans confirmation. Vous pouvez contacter le support pour l'annuler.</p>
