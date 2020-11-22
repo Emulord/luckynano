@@ -4,7 +4,7 @@ $roulette_lang = array(
   'Roll' => 'Girar',
   'User' => 'Usuario',
   'Amount' => 'Cantidad',
-  'Win' => 'Victoria (Ganancia)',
+  'Win' => 'Victoria',
   'js_copied_to_clipboard' => 'Copiado al portapapeles.',
 );
 ?>

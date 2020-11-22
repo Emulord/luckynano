@@ -28,8 +28,8 @@ $poker_table_lang = array(
   'winner_ribbon' => 'GANADOR',
   'no_limit' => "NO LIMIT TEXAS HOLD'EM",
 
-  'minimum_entry' => 'Monto mínimo de entrada',
-  'maximum_entry' => 'Monto máximo de entrada',
+  'minimum_entry' => 'Monto mínimo de entrada ',
+  'maximum_entry' => 'Monto máximo de entrada ',
 
   'fee_info' => 
   'Tasa de la mesa: <span id="fee_info_amount">0</span>el % de las ganancias cuando dejas una mesa <a href="../old/faq.php#poker_fee" target="blank"><i class="mdi mdi-help-circle"></i></a><br>
@@ -37,10 +37,10 @@ $poker_table_lang = array(
 
   'entry_buyin' => 'Precio de entrada ',
   'number_participants_info' => 'Número de participantes ',
-  'number_seats_info' => 'jugadores simultaneos',
+  'number_seats_info' => ' jugadores simultaneos',
 
   'rebuy_info' => 
-  'Recomprar <span id="rebuy_info_value">no está permitido</span> <span style="font-size:19px; vertical-align:middle">(entry impossible after a loss)</span>',
+  'Recomprar <span id="rebuy_info_value">no está permitido</span>',
 
   'tournament_date_info' => 'Fecha de inicio <span id="tournament_date_info_amount" class="tournament_date"></span>',
 
@@ -52,7 +52,7 @@ $poker_table_lang = array(
   <span class="poker_sub_message">En los cash games o freerolls, puedes dejar la mesa automáticamente después de un número de rondas. <br>Las Antes son obligatorias para los torneos.</span>',
 
   'buyin_window_title' => 'PRECIO DE ENTRADA ',
-  'buyin_max' => 'MAXIMO',
+  'buyin_max' => 'MAX',
   'poker_deposit' => 'DEPOSITAR',
 
   'tournament_game_over' => 'FIN DEL JUEGO',
